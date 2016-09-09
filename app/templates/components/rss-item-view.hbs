@@ -1,0 +1,11 @@
+
+
+{{#each rssitem as |item|}}
+  <div class="item">
+    <h2>
+      <a href={{item.link}}>{{item.title}}</a>
+    </h2>
+    <p>{{item.author}}</p>
+    {{{item.description}}}
+  </div>
+{{/each}}

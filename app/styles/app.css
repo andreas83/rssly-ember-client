@@ -1,0 +1,22 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color:#0F0F0F;
+}
+
+.inner{
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.item{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
