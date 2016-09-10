@@ -1,0 +1,17 @@
+
+
+{{#each rsssource as |source|}}
+  <div class="source item">
+
+  	<img src={{source.image}} />
+
+    <h2>
+      <a href={{source.link}}>{{source.name}}</a>
+    </h2>
+    <p>{{{source.description}}}</p>
+    <p>Language: {{source.language}}</p>
+   
+  </div>
+  {{source.item}}
+	
+{{/each}}
